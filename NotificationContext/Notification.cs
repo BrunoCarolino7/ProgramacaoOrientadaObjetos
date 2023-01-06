@@ -13,7 +13,7 @@ namespace Bruno.NotificationContext
             Message = message;
         }
 
-        public string Property { get; set; }
-        public string Message { get; set; }
+        public string? Property { get; set; }
+        public string? Message { get; set; }
     }
 }

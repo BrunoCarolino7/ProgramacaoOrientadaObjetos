@@ -20,9 +20,9 @@ namespace Bruno.ContentContext
             Course = course;
         }
 
-        public int Order { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public Course Course { get; set; }
+        public int? Order { get; set; }
+        public string? Title { get; set; }
+        public string? Description { get; set; }
+        public Course? Course { get; set; }
     }
 }

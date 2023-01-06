@@ -13,9 +13,9 @@ namespace Bruno.SubscriptionContext
             Subscriptions = new List<Subscription>();
         }
 
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public User User { get; set; }
+        public string Name { get; set; } = null!;
+        public string Email { get; set; } = "";
+        public User? User { get; set; }
 
         public IList<Subscription> Subscriptions { get; set; }
 
